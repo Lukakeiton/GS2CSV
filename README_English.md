@@ -4,7 +4,7 @@ create CSV from google sheet and update last cell with same color as last found.
 Requeriments
 
 - Java 8
-- Configured software with Java compiler
+- Configurated software with Java compiler
 
 Instructions
 
