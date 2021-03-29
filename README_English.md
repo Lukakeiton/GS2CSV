@@ -1,5 +1,5 @@
 # CSVfromGSheet
-create CSV from google sheet and update last cell with same color as last found.
+Create CSV, with semicolon separator, from google sheet and update last cell with same color as last found. 
 
 Requeriments
 
@@ -8,5 +8,10 @@ Requeriments
 
 Instructions
 
-1) Download credentials.json from google api. Copy the file to src/main directory.
-2) Run the proyect.
+1) Download credentials.json from google api. Copy downloaded file to src/main directory (inside the project)
+2) Run the proyect
+3) Fill required fields
+4) Press Generate CSV button
+
+On first execution:
+- Log in to Google account
