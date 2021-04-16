@@ -4,7 +4,6 @@ Create CSV, with semicolon separator, from google sheet and update last cell wit
 Requeriments
 
 - Java 8
-- Configurated software with Java compiler
 
 Instructions
 
