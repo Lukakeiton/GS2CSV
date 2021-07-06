@@ -22,4 +22,4 @@ Cuando se ejecute por primera vez, la instrucciones a seguir son las siguientes:
 
 En las siguientes ejecuciones:
 
-Cuando lo ejecutemos por segunda vez, el programa ya no nos pedirá seleccionar el fichero "credentials.json". Introducimos los datos del SheetID y SpreadsheetID y pulsamos el botón de "Generar CSV", creándose así el archivo "import2CSV.json" en la carpeta de descargas.
+Cuando lo ejecutemos por segunda vez, el programa ya no nos pedirá seleccionar el fichero "credentials.json", ni el SpreadsheetId, ni el sheetId. Simplemente, pulsamos el botón de "Generar CSV", creándose así el archivo "import2CSV.json" en la carpeta de descargas.
