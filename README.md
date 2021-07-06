@@ -19,7 +19,7 @@ Cuando se ejecute por primera vez, la instrucciones a seguir son las siguientes:
 4) Seleccionaremos el fichero "credentials.json" y rellenaremos los campos requeridos (SheetID y SpreadsheetID)
 5) Pulsaremos el botón "Generar CSV"
 6) Debemos iniciar sesión con la cuenta de Google donde se encuentra el formulario.
-7) En la carpeta de descargas se generará un archivo llamado "import2CSV.csv" que deberemos arrastrar a Moodle para dar de alta al nuevo alumnado.
+7) En la carpeta de descargas se generará un archivo llamado "import2CSV.csv".
 
 En las siguientes ejecuciones:
 
