@@ -6,9 +6,10 @@ Este programa automatiza la creación de un archivo CSV con el nombre, apellidos
 
 Además, actualiza con el mismo color de texto en la marca temporal al último alumno o alumna para evitar duplicados a la hora de la importación en Moodle.
 
-Requeriments
+Requisitos
 
 - Java 8
+- Gradle
 
 Cuando se ejecute por primera vez, la instrucciones a seguir son las siguientes:
 
