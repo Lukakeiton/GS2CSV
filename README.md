@@ -1,17 +1,25 @@
-# CSVfromGSheet
-Create CSV, with semicolon separator, from google sheet and update last cell with same color as last found. 
+# GS2CSV
+
+Este programa está pensado para facilitar la vida a los administradores de Moodle en los centros educativos. Lo más común es encontrarse con un formulario de Google, creando una Hoja de Cálculo con las respuestas en Google Drive.
+
+Este programa automatiza la creación de un archivo CSV con el nombre, apellidos y correo electrónico de los alumnos para su posterior importación en Moodle.
+
+Además, actualiza con el mismo color de texto en la marca temporal al último alumno o alumna para evitar duplicados a la hora de la importación en Moodle.
 
 Requeriments
 
 - Java 8
 
-Instructions
+Cuando se ejecute por primera vez, la instrucciones a seguir son las siguientes:
 
-1) Go to https://developers.google.com/sheets/api/quickstart/java?authuser=2 and follow the instructions ONLY for step 1
-2) Download credentials.json from google api
-3) Run the app
-4) Select credentials.json file. Fill required fields (SheetID and SpreadsheetID)
-5) Press Generate CSV button
+1) Deberemos ir al siguiente enlace https://developers.google.com/sheets/api/quickstart/java?authuser=2 y seguir las instrucciones del paso 1.
+2) Descargaremos el fichero "credentials.json"
+3) Ejecutaremos la aplicación
+4) Seleccionaremos el fichero "credentials.json" y rellenaremos los campos requeridos (SheetID y SpreadsheetID)
+5) Pulsaremos el botón "Generar CSV"
+6) Debemos iniciar sesión con la cuenta de Google donde se encuentra el formulario.
+7) En la carpeta de descargas se generará un archivo llamado "import2CSV.csv" que deberemos arrastrar a Moodle para dar de alta al nuevo alumnado.
 
-On first execution:
-- Log in to Google account
+En las siguientes ejecuciones:
+
+Cuando lo ejecutemos por segunda vez, el programa ya no nos pedirá seleccionar el fichero "credentials.json". Introducimos los datos del SheetID y SpreadsheetID y pulsamos el botón de "Generar CSV", creándose así el archivo "import2CSV.json" en la carpeta de descargas.
